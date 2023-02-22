@@ -10,10 +10,14 @@ class Homepage extends StatelessWidget {
       appBar: AppBar(
         title: Center(child: Text("catalog App")),
       ),
-      body: Container(
+       body: Container(
         child: Center(child: Text("$name app in $days days")),
       ),
-      drawer: Drawer( ),
+      drawer: Drawer(
+        child: Center(
+          child: Text("hello"),
+        ),
+      ),
     );
   }
 }
