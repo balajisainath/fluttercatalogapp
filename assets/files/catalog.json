@@ -2,75 +2,67 @@
     "Products":[
         {
             "id":1,
-            "name":"iPhone 12 Pro",
-            "desc":"Apple iPhone 12 Gen",
+            "name":"iPhone 14 Pro",
+            "desc":"iphone 14 pro 256GB",
             "price":999,
             "color":"#33505a",
-            "image":"https://www.apple.com/newsroom/images/product/availability/geo/Apple_iphone12mini-iphone12max-homepodmini-availability_iphone12promax-geo_110520_inline.jpg.large_2x.jpg"
+            "image":"https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1662703105/Croma%20Assets/Communication/Mobiles/Images/261963_oqrd6j.png/mxw_2256,s_webp,f_auto"
         },
         {
             "id":2,
-            "name":"Pixel 5",
-            "desc":"Google Pixel 5 6th Gen",
-            "price":699,
-            "color":"#33505a",
-            "image":"https://fdn2.gsmarena.com/vv/pics/google/google-pixel-5-5g-1.jpg"
-        },
-        {
-            "id":3,
             "name":"M1 MacBook Air",
             "desc":"Macbook Air M1 2020",
             "price":1299,
             "color":"#33505a",
-            "image":"https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1664472289661"
+            "image":"https://www.pngall.com/wp-content/uploads/12/Macbook-PNG-Image.png"
         },
         {
-            "id":4,
+            "id":3,
             "name":"PlayStation 5",
             "desc":"Playstation 5th Gen",
             "price":1599,
             "color":"#33505a",
-            "image":"https://bankofelectronics.com/397-large_default/sony-playstation-5-CD-buy-India.jpg"
+            "image":"https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1675760265/Croma%20Assets/Gaming/Gaming%20Consoles/Images/267452_ipcrdh.png/mxw_2256,s_webp,f_auto"
         },
         {
-            "id":5,
+            "id":4,
             "name":"Air Pods",
             "desc":"Air Pods Gen3",
             "price":299,
             "color":"#33505a",
-            "image":"https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MME73?wid=2000&hei=2000&fmt=jpeg&qlt=90&.v=1632861342000"
+            "image":"https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1674044824/Croma%20Assets/Communication/Headphones%20and%20Earphones/Images/251323_8_k5m3ql.png/mxw_2256,s_webp,f_auto"
+        },
+        {
+            "id":5,
+            "name":"Ipad Pro",
+            "desc":"ipad pro 256GB powered by M1 chip ",
+            "price":1399,
+            "color":"#33505a",
+            "image":"https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP784/ipad-pro-11-2018_2x.png"
         },
         {
             "id":6,
-            "name":"Ipad Pro",
-            "desc":"ipad pro 256GB",
-            "price":1399,
+            "name":"Galaxy s21 Ultra",
+            "desc":"Samsung galaxy s21 ultra 256GB with 10X zoom",
+            "price":999,
             "color":"#33505a",
-            "image":"https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-pro-model-select-gallery-2-202212?wid=5120&hei=2880&fmt=p-jpg&qlt=95&.v=1667594167534"
+            "image":"https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1662417154/Croma%20Assets/Communication/Mobiles/Images/231876_jjejiq.png/mxw_2256,s_webp,f_auto"
         },
         {
             "id":7,
-            "name":"Galaxy s21 Ultra",
-            "desc":"Samsung galaxy s21 ultra 256GB",
-            "price":999,
+            "name":"xiaomi 11 pro",
+            "desc":"Xiaomi 11pro 512GB with 108MP Camera",
+            "price":899,
             "color":"#33505a",
-            "image":"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/917nPCOw9-L._SL1500_.jpg"
+            "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1666992702/Croma%20Assets/Communication/Mobiles/Images/251172_3_gfy77j.png/mxw_2256,s_webp,f_auto"
         },
         {
             "id":8,
-            "name":"xiaomi 11 pro",
-            "desc":"Xiaomi 11pro 512GB",
-            "price":899,
-            "color":"#33505a",
-            "image":"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71p1lN88RoL._SL1500_.jpg"
-        },
-        {
-            "id":9,
             "name":"M1 MacBook Pro",
-            "desc":"Macbook Pro 13inch",
+            "desc":"MacbookPro 14-inch with M1 Max chip",
             "price":1999,
             "color":"#33505a",
-            "image":"https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp-spacegray-gallery2-202206?wid=4000&hei=3074&fmt=jpeg&qlt=90&.v=1664495936955"
+            "image":"https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1663415676/Croma%20Assets/Computers%20Peripherals/Laptop/Images/245232_0_pin6ch.png/mxw_2256,s_webp,f_auto"
         }
     ]
 }
