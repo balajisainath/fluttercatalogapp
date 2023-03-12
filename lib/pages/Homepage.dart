@@ -1,7 +1,9 @@
 import 'dart:convert';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutterapp1/Util/MyRoutes.dart';
 import 'package:flutterapp1/models/catalogs.dart';
 import 'package:flutterapp1/pages/home_widgets/catalog_header.dart';
 import 'package:flutterapp1/pages/home_widgets/catalog_list.dart';
@@ -25,7 +27,7 @@ class _HomepageState extends State<Homepage> {
     LoadData();
   }
   LoadData() async {
-    await Future.delayed(Duration(seconds: 2));
+    await Future.delayed(Duration(seconds: 1));
     final catalogjson = await rootBundle.loadString(
         "assets/files/catalog.json");
     final decodeddata = jsonDecode(catalogjson);
@@ -39,6 +41,12 @@ class _HomepageState extends State<Homepage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: mythemes.creamcolour,
+
+      floatingActionButton: FloatingActionButton(
+        onPressed:() => Navigator.pushNamed(context, MyRoutes.CartRoute),
+        backgroundColor: mythemes.darkBlueColour,
+        child: Icon(CupertinoIcons.cart),
+      ),
       body: SafeArea(
         child: Container(
           padding: Vx.m32,

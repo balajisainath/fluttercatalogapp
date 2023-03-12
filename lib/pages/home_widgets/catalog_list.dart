@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
 import 'package:flutterapp1/models/catalogs.dart';
 import 'package:flutterapp1/pages/home_detail_page.dart';
 import 'package:flutterapp1/pages/home_widgets/catalog_image.dart';
@@ -31,9 +32,11 @@ class CatalogItem extends StatelessWidget {
         super(key: key);
   @override
   Widget build(BuildContext context) {
+    timeDilation=2.5;  // this helps to control the animations
     return VxBox(
         child: Row(
           children: [
+
             Hero(
               tag: Key(catalog.id.toString()),
                 child: CatalogImage(image:catalog.image)),
