@@ -13,10 +13,13 @@ class HomeDetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
-      backgroundColor: mythemes.creamcolour,
+
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+      ),
+      backgroundColor: context.canvasColor,
       bottomNavigationBar: Container(
-        color: Colors.white,
+        color: context.cardColor,
         child: ButtonBar(
           alignment: MainAxisAlignment.spaceBetween,
           buttonPadding: Vx.mH8,
@@ -49,14 +52,14 @@ class HomeDetailPage extends StatelessWidget {
                 arcType: VxArcType.CONVEY,
                 edge: VxEdge.TOP,
                 child: Container(
-                  color: Colors.white,
+                  color: context.cardColor,
                   width: context.screenWidth,
                   child: Column(
                     children: [
-                      catalog.name.text.lg.bold.color(mythemes.darkBlueColour).xl4.make(),
+                      catalog.name.text.lg.bold.color(context.accentColor).xl4.make(),
                       catalog.desc.text.textStyle(context.captionStyle).lg.make(),
                       10.heightBox,
-                      "As I look out of the window, I see the sun slowly setting over the horizon. The sky is painted with hues of orange, pink and purple, casting a beautiful glow over the landscape. Birds chirp in the distance, adding to the serene atmosphere. I take a deep breath and feel a sense of calmness wash over me. In moments like these, I am reminded of the beauty and wonder of the world around us".
+                      "As I and feel a sense of calmness wash over me. In moments like these, I am reminded of the beauty and wonder of the world around us".
                       text.textStyle(context.captionStyle).make().p12(),
 
 
@@ -66,7 +69,7 @@ class HomeDetailPage extends StatelessWidget {
               ))
           ],
           ),
-      )
+      )//.color(mythemes.darkBlueColour)
     );
   }
 }

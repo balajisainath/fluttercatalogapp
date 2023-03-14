@@ -10,8 +10,14 @@ class CatalogImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    return  Image.network(
-      image,
-    ).box.p8.rounded.make().color(mythemes.creamcolour).p16().w40(context);
+    return  Card(
+      elevation: 0.0,
+
+      shape: Vx.rounded,
+      color: context.canvasColor,
+      child: Image.network(
+        image,
+      ),
+    ).p8();
   }
 }
