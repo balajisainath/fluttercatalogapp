@@ -3,7 +3,7 @@ import 'dart:ffi';
 import 'package:flutterapp1/models/catalogs.dart';
 
 class Cartmodel{
-   CatalogModel _catalog;
+   late CatalogModel _catalog;
   static final cartModel =Cartmodel._internal();
   Cartmodel._internal();
   factory Cartmodel()=>cartModel;
@@ -15,7 +15,7 @@ class Cartmodel{
   CatalogModel get catalog => _catalog;
 //setting catalog
   set catalog(CatalogModel newcatalog){
-    assert(_catalog!=null);
+    assert(newcatalog!=null);
     _catalog=newcatalog;
   }
   //get items in the cart
